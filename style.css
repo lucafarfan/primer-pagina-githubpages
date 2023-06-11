@@ -1,97 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
- *{ 
-    font-family: 'Source Sans Pro', sans-serif;
-   
+*{ 
+   font-family: 'Source Sans Pro', sans-serif;
+  
 }
 
 body {
-    background: rgb(236, 230, 230);
+   background: rgb(236, 230, 230);
 }
 
 .navbar-brand > img {
-    width: 180px;
+   width: 180px;
 
 }
 
 .navbar-nav a {
 
-    font-size: 17px;
-    text-transform:inherit;
-    font-weight: 600;
-    text-align:calc() ;
+   font-size: 17px;
+   text-transform:inherit;
+   font-weight: 600;
+   text-align:calc() ;
 
 } 
 
 
 h2 {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-weight: bold; 
-    font-style:calc();
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-weight: bold; 
+   font-style:calc();
 }
+
+h6 {
+
+   font-weight: bold;
+}
+
+h5 {
+   
+   font-weight:bold;
+}
+
 
 .container {
 
-    margin-top: 20px;
+   margin-top: 20px;
 }
 
 .card {
 
-    display: block;
-    margin: auto;
-    box-sizing:border-box;
-    box-shadow:  10px 10px 30px rgb(230, 109, 109);
-    font-size: 15px;
-    margin-bottom: 20px;
+   display: block;
+   margin: auto;
+   box-sizing:border-box;
+   box-shadow:  10px 10px 30px rgb(230, 109, 109);
+   font-size: 15px;
+   margin-bottom: 20px;
 } 
 
 .Bio {
 
-    display: block;
-    margin: auto;
-    max-width: 400px;
-    margin-bottom: 40px;
-    
+   display: block;
+   margin: auto;
+   max-width: 400px;
+   margin-bottom: 40px;
+   
 }
 
 
 .about-me .contenedor {
 
-    max-width:800px;
-    text-align: center;
-    display: block;
-    margin: auto;
+   max-width:800px;
+   text-align: center;
+   display: block;
+   margin: auto;
 
 
 }
 
 .contact {
 
-    display: block;
-    margin: auto;
-    max-width: 700px;
-    text-align:left;
+   display: block;
+   margin: auto;
+   max-width: 700px;
+   text-align:left;
 }
 .form-label {
 
-    font-size: 17px;
+   font-size: 17px;
 }
 
 .btn-danger {
 
-    display: block;
-    margin: auto;
-    width: 700px;
+   display: block;
+   margin: auto;
+   width: 700px;
 }
 
 .footer {
 
-    padding: 20px 0;
-    line-height: normal;
-    display: block;
-    margin:auto;
+   padding: 20px 0;
+   line-height: normal;
+   display: block;
+   margin:auto;
 }
